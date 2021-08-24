@@ -1,0 +1,8 @@
+#typing-area {
+    width: 500px; 
+    height: 100px;  
+}
+
+#typing-area:focus {
+    outline: none;
+}

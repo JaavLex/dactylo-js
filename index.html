@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="index.css">
+        <title>Snake JS</title>    
+    </head>
+
+    <body>
+        <div class="container">
+            <h5>
+                Random sentence: <div id="random-sentence"></div>
+            </h5>
+            <h4> 
+                TYPE ! 
+            </h4>
+            <textarea id="typing-area" type="text" onkeydown="return returner(event)" onkeyup="return testWrittenSentence();" rows="10" cols="10">
+                Placeholder contents
+            </textarea>
+            <h4>
+                <div id="test-result"></div>
+                <div id="Points"></div>
+            </h4>
+        </div>
+    </body> 
+    <script src="snake.js"></script>
+</html>
